@@ -1,2 +1,7 @@
 # dotfiles
-My development environment and config
+> A repo contained my development environment and config.
+
+### TODO
+- vscode config
+- zsh config
+
