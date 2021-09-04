@@ -1,0 +1,89 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.suggestSelection": "first",
+  "editor.linkedEditing": true,
+  "git.ignoreMissingGitWarning": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false, // 格式化不加分号
+      "singleQuote": true, // 格式化以单引号为主
+      "tabWidth": 2,
+      "useTabs": false,
+      "trailingComma": "es5",
+      "printWidth": 120,
+      "htmlWhitespaceSensitivity": "ignore"
+    },
+    "vetur.validation.template": false,
+    "vetur.validation.script": false,
+    "vetur.validation.style": false
+  },
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".vue",
+      ".ts",
+      ".tsx"
+    ]
+  },
+  "javascript.validate.enable": false,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html",
+    "vue": "html"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  // 以下为stylus配置
+  "stylusSupremacy.insertColons": false, // 是否插入冒号
+  "stylusSupremacy.insertSemicolons": false, // 是否插入分好
+  "stylusSupremacy.insertBraces": false, // 是否插入大括号
+  "stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
+  "stylusSupremacy.insertNewLineAroundBlocks": false,
+  "gitlens.gitCommands.closeOnFocusOut": true,
+  "extensions.ignoreRecommendations": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "go.formatTool": "goimports",
+  "workbench.sideBar.location": "left",
+  "files.autoSave": "afterDelay",
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "vetur.validation.template": false,
+  "redhat.telemetry.enabled": true,
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.mac": "/Users/sumin/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+    "vscode-kubernetes.helm-path.mac": "/Users/sumin/.vs-kubernetes/tools/helm/darwin-amd64/helm"
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "workbench.colorTheme": "One Monokai",
+  "oneDarkPro.editorTheme": "oneDarkPro",
+  "workbench.iconTheme": "material-icon-theme",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "*.html": "default"
+  }
+}
